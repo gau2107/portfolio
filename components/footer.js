@@ -7,7 +7,7 @@ function Footer() {
         </div>
         <div className="flex justify-center">
           <a
-            target="_blank"
+            target="_blank" rel="noreferrer"
             href="https://www.linkedin.com/in/gaurav-solanki-2b6121117/"
             className="mr-6 text-gray-600"
           >
@@ -17,7 +17,7 @@ function Footer() {
             />
           </a>
           <a
-            target="_blank"
+            target="_blank" rel="noreferrer"
             href="https://github.com/gau2107"
             className="mr-6 text-gray-600"
           >
@@ -27,7 +27,7 @@ function Footer() {
             />
           </a>
           <a
-            target="_blank"
+            target="_blank" rel="noreferrer"
             href="https://leetcode.com/solankigaurav/"
             className="mr-6 text-gray-600"
           >
@@ -37,7 +37,7 @@ function Footer() {
             />
           </a>
           <a
-            target="_blank"
+            target="_blank" rel="noreferrer"
             href="https://www.instagram.com/gaurav.psd/"
             className="mr-6 text-gray-600"
           >
