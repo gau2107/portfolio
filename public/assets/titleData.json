@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Next",
+        "img": "assets/tech/next-logo.png"
+    },
+    {
+        "title": "React",
+        "img": "assets/tech/react-logo.png"
+    },
+    {
+        "title": "Svelte",
+        "img": "assets/tech/svelte-logo.png"
+    }
+]
