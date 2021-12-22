@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef } from "react";
 import useTypewriter from "react-typewriter-hook";
 const MagicOcean = [
-  "Designer",
   "Web Developer",
-  "Mentor"
+  "HackerRank Certified Dev",
+  "Udemy Certified Dev"
 ]
 function Title() {
   const [magicName, setMagicName] = useState("");

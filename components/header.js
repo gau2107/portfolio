@@ -25,7 +25,8 @@ function Header() {
       <div className="sm:mb-0 self-center">
         {/* <!-- <div className="h-10" style="display: table-cell, vertical-align: middle;"> --> */}
         <a
-          href="#"
+          target="_blank" rel="noreferrer"
+          href="https://1drv.ms/w/s!AsTFw1EO-3YLmw2zadio5gH47CI0?e=wuZC9X"
           className="text-grey-darkest hover:text-blue-dark font-semibold text-base"
         >
           Resume
