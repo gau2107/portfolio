@@ -8,10 +8,14 @@ function Header() {
   "
       >
         <div className="h-10 w-10 self-center mr-2">
-          <img alt="profile.png" className="h-10 w-10 self-center" src="/assets/profile.png" />
+          <img
+            alt="profile.png"
+            className="h-10 w-10 self-center"
+            src="/assets/profile.png"
+          />
         </div>
         {/* <div> */}
-          {/* <a
+        {/* <a
             href="/home"
             className="text-2xl no-underline text-grey-darkest hover:text-blue-dark font-bold"
           >
@@ -23,15 +27,32 @@ function Header() {
       </div>
 
       <div className="sm:mb-0 self-center">
-        {/* <!-- <div className="h-10" style="display: table-cell, vertical-align: middle;"> --> */}
+      <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://1drv.ms/w/s!AsTFw1EO-3YLmw2zadio5gH47CI0?e=wuZC9X"
+          className="block mt-4 lg:inline-block lg:mt-0 mr-4 text-grey-darkest hover:text-blue-dark font-semibold text-base"
+        >
+          Projects
+        </a>
         <a
-          href="#"
-          className="text-grey-darkest hover:text-blue-dark font-semibold text-base"
+          target="_blank"
+          rel="noreferrer"
+          href="https://1drv.ms/w/s!AsTFw1EO-3YLmw2zadio5gH47CI0?e=wuZC9X"
+          className="block mt-4 lg:inline-block lg:mt-0 mr-4 text-grey-darkest hover:text-blue-dark font-semibold text-base"
+        >
+          Blog
+        </a>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://1drv.ms/w/s!AsTFw1EO-3YLmw2zadio5gH47CI0?e=wuZC9X"
+          className="block mt-4 lg:inline-block lg:mt-0 mr-4 text-grey-darkest hover:text-blue-dark font-semibold text-base"
         >
           Resume
         </a>
-        {/* <!-- </div> --> */}
       </div>
+      
     </nav>
   );
 }

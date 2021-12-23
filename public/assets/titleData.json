@@ -1,14 +1,17 @@
 [
     {
-        "title": "Next",
-        "img": "assets/tech/next-logo.png"
+        "title": "Next.js",
+        "img": "assets/tech/next-logo.png",
+        "description": "Worked as React developer for 2 years. Did a 65 hours long course on Udemy to understand Next.js deeply. Used many features/libraries like Auth0."
     },
     {
         "title": "React",
-        "img": "assets/tech/react-logo.png"
+        "img": "assets/tech/react-logo.png",
+        "description": "Worked as React developer for 2 years. Learnt a lot of things about react and it's other libraries/features like Hooks, Context, Redux, Cookies."
     },
     {
         "title": "Svelte",
-        "img": "assets/tech/svelte-logo.png"
+        "img": "assets/tech/svelte-logo.png",
+        "description": "Self taught Svelte developer. Made a medium sized web app inspired from Momentum extension."
     }
 ]
