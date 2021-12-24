@@ -1,3 +1,4 @@
+import data from "../public/assets/HeaderData.json";
 import Image from "next/image";
 
 function Header() {
@@ -27,32 +28,19 @@ function Header() {
       </div>
 
       <div className="sm:mb-0 self-center">
-      <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://1drv.ms/w/s!AsTFw1EO-3YLmw2zadio5gH47CI0?e=wuZC9X"
-          className="block mt-4 lg:inline-block lg:mt-0 mr-4 text-grey-darkest hover:text-blue-dark font-semibold text-base"
-        >
-          Projects
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://1drv.ms/w/s!AsTFw1EO-3YLmw2zadio5gH47CI0?e=wuZC9X"
-          className="block mt-4 lg:inline-block lg:mt-0 mr-4 text-grey-darkest hover:text-blue-dark font-semibold text-base"
-        >
-          Blog
-        </a>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://1drv.ms/w/s!AsTFw1EO-3YLmw2zadio5gH47CI0?e=wuZC9X"
-          className="block mt-4 lg:inline-block lg:mt-0 mr-4 text-grey-darkest hover:text-blue-dark font-semibold text-base"
-        >
-          Resume
-        </a>
+        {data.map((d, ind) => {
+          return (
+            <a key={ind}
+              target="_blank"
+              rel="noreferrer"
+              href={d.link}
+              className="block mt-4 lg:inline-block lg:mt-0 mr-10 text-grey-darkest hover:text-blue-dark font-semibold text-lg"
+            >
+              {d.title}
+            </a>
+          );
+        })}
       </div>
-      
     </nav>
   );
 }
