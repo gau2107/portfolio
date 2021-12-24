@@ -6,7 +6,7 @@ function Cards() {
         return (
           <div key={ind} className="rounded-lg shadow-lg bg-white max-w-sm p-6 mr-8">
               <img
-                className="rounded-t-lg h-60 w-60 object-center"
+                className="rounded-t-lg h-60 w-60 mx-auto object-center"
                 src={d.img}
                 alt=""
               />
