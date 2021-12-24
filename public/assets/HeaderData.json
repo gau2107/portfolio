@@ -8,8 +8,9 @@
       "link": ""
   },
   {
-      "title": "Achievements",
-      "link": ""
+      "title": "Certificates",
+      "link": "/certificates",
+      "nextLink": 1
   },
   {
     "title": "Resume",

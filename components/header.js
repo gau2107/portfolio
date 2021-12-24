@@ -1,5 +1,6 @@
 import data from "../public/assets/HeaderData.json";
 import Image from "next/image";
+import Link from "next/link";
 
 function Header() {
   return (
@@ -9,11 +10,15 @@ function Header() {
   "
       >
         <div className="h-10 w-10 self-center mr-2">
-          <img
-            alt="profile.png"
-            className="h-10 w-10 self-center"
-            src="/assets/profile.png"
-          />
+          <Link href={"/"} passHref>
+            <a>
+              <img
+                alt="profile.png"
+                className="h-10 w-10 self-center"
+                src="/assets/profile.png"
+              />
+            </a>
+          </Link>
         </div>
         {/* <div> */}
         {/* <a
@@ -29,8 +34,15 @@ function Header() {
 
       <div className="sm:mb-0 self-center">
         {data.map((d, ind) => {
-          return (
-            <a key={ind}
+          return d.nextLink ? (
+            <Link href={d.link}>
+              <a className="block mt-4 lg:inline-block lg:mt-0 mr-10 text-grey-darkest hover:text-blue-dark font-semibold text-lg">
+                {d.title}
+              </a>
+            </Link>
+          ) : (
+            <a
+              key={ind}
               target="_blank"
               rel="noreferrer"
               href={d.link}
