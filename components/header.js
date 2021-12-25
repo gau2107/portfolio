@@ -15,7 +15,7 @@ function Header() {
               <img
                 alt="profile.png"
                 className="h-10 w-10 self-center"
-                src="/assets/profile.png"
+                src="/assets/favicon-32x32.png"
               />
             </a>
           </Link>
