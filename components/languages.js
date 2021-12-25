@@ -1,5 +1,5 @@
 import data from "../public/assets/titleData.json";
-function Cards() {
+function Languages() {
   return (
     <div className="flex justify-center">
       {data.map((d, ind) => {
@@ -21,4 +21,4 @@ function Cards() {
     </div>
   );
 }
-export default Cards;
+export default Languages;

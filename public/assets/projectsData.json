@@ -1,0 +1,16 @@
+[
+  {
+      "title": "Earth",
+      "img": "assets/projects/earth.jpg",
+      "description": "One page application made in Svelte Js",
+      "link":"https://svelte-momentum.herokuapp.com/",
+      "alt": "Earth Screenshot"
+  },
+  {
+      "title": "Portfolio",
+      "img": "assets/projects/gsolanki.jpg",
+      "description": "Best example of recursion. Ever",
+      "link": "https://gsolanki.herokuapp.com/projects",
+      "alt": "My Portfolio Screenshot"
+  }
+]
