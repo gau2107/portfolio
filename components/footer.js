@@ -1,6 +1,7 @@
 function Footer() {
   return (
-    <footer className="text-center lg:text-left bg-gray-100 text-gray-600">
+    <div className="pt-6">
+    <footer className="text-center lg:text-left bg-gray-100 text-gray-600 inset-x-0 fixed bottom-0">
       <div className="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
         <div className="mr-12 hidden lg:block">
           <span>Get connected with me on social networks:</span>
@@ -54,6 +55,7 @@ function Footer() {
           <a className="text-gray-600 font-semibold" href="https://mdbootstrap.com/">Tailwind Elements</a>
         </div> */}
     </footer>
+    </div>
   );
 }
 

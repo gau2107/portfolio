@@ -8,14 +8,14 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className={""}>
       <Head>
         <title>Gaurav Solanki</title>
         <meta name="description" content="JS Developer" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main className={styles.main}>
+      <main className={styles.main + " container mx-auto"}>
         <Title />
         <Languages />
       </main>

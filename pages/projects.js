@@ -14,9 +14,12 @@ export default function Certificates() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <br></br>
-      <main className={"text-center"}>
+      <main className={""}>
+        <div className="container mx-auto">
+
+        <h1 className="text-5xl font-medium leading-tight mt-0 mb-2">Projects</h1>
         <Projects />
+        </div>
       </main>
       <Footer />
     </div>
