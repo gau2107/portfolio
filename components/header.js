@@ -4,6 +4,7 @@ import Link from "next/link";
 
 function Header() {
   return (
+    <>
     <nav className="font-sans flex flex-col text-center content-center sm:flex-row sm:text-left sm:justify-between py-2 px-6 bg-white shadow sm:items-baseline w-full">
       <div
         className="mb-2 sm:mb-0 flex flex-row
@@ -20,22 +21,12 @@ function Header() {
             </a>
           </Link>
         </div>
-        {/* <div> */}
-        {/* <a
-            href="/home"
-            className="text-2xl no-underline text-grey-darkest hover:text-blue-dark font-bold"
-          >
-            LogoText
-          </a>
-          <br></br>
-          <span className="text-xs text-grey-dark">Beautiful New Tagline</span> */}
-        {/* </div> */}
       </div>
 
       <div className="sm:mb-0 self-center">
         {data.map((d, ind) => {
           return d.nextLink ? (
-            <Link href={d.link}>
+            <Link key={ind} href={d.link}>
               <a className="block mt-4 lg:inline-block lg:mt-0 mr-10 text-grey-darkest hover:text-blue-dark font-semibold text-lg">
                 {d.title}
               </a>
@@ -54,6 +45,8 @@ function Header() {
         })}
       </div>
     </nav>
+    <div className="pb-8"></div>
+    </>
   );
 }
 

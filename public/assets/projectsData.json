@@ -1,14 +1,14 @@
 [
   {
       "title": "Dashboard",
-      "img": "assets/projects/earth.jpg",
+      "img": "/assets/projects/earth.jpg",
       "description": "Single page web application to give you motivation and helps you to stay focused on what really matters. It has features like Pomodoro, Task List, StopWatch, Timer, Watch, Quotes and a beautiful new wallpaper everyday to keep you motivated and going.",
       "link":"https://svelte-momentum.herokuapp.com/",
       "alt": "Earth Screenshot"
   },
   {
       "title": "Portfolio",
-      "img": "assets/projects/gsolanki.jpg",
+      "img": "/assets/projects/gsolanki.jpg",
       "description": "My online portfolio where you can see the means to contact me, see all my accomplishments, my side projects, my blogs, and other updates. Also this is best example of recursion 😂.",
       "link": "https://gsolanki.herokuapp.com/projects",
       "alt": "My Portfolio Screenshot"
