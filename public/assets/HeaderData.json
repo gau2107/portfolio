@@ -1,20 +1,20 @@
 [
   {
-      "title": "Projects",
-      "link": "/projects",
-      "nextLink": 1
+    "title": "Certificates",
+    "link": "/certificates",
+    "nextLink": 1
   },
   {
-      "title": "Blogs",
-      "link": "https://medium.com/@gauravpsolanki"
+    "title": "Projects",
+    "link": "/projects",
+    "nextLink": 1
   },
   {
-      "title": "Certificates",
-      "link": "/certificates",
-      "nextLink": 1
+    "title": "Blogs",
+    "link": "https://medium.com/@gauravpsolanki"
   },
   {
     "title": "Resume",
     "link": "https://1drv.ms/w/s!AsTFw1EO-3YLmw2zadio5gH47CI0?e=wuZC9X"
-}
+  }
 ]
