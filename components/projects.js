@@ -8,7 +8,7 @@ function Projects() {
           <div key={ind} className="rounded-lg shadow-lg bg-white max-w-sm p-6 mr-8">
               <a key={ind} href={d.link} target="_blank" rel="noreferrer">
               <img
-                className="rounded-t-lg h-60 m-0 object-center" layout="fill"
+                className="rounded-t-lg h-60 m-0 object-center"
                 src={d.img}
                 alt=""
               />
