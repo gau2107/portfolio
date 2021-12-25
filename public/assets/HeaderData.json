@@ -1,7 +1,8 @@
 [
   {
       "title": "Projects",
-      "link": ""
+      "link": "/projects",
+      "nextLink": 1
   },
   {
       "title": "Blogs",
