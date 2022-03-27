@@ -1,5 +1,5 @@
 import StarRatings from "react-star-ratings";
-import data from "../public/assets/titleData.json";
+import data from "/public/assets/titleData.json";
 function Languages() {
   return (
     <div className="flex justify-center">
