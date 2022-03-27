@@ -1,5 +1,5 @@
 import Image from "next/image";
-import data from "../public/assets/projectsData.json";
+import data from "/public/assets/projectsData.json";
 function Projects() {
   return (
     <div className="flex justify-center">

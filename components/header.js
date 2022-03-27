@@ -1,4 +1,4 @@
-import data from "../public/assets/HeaderData.json";
+import data from "/public/assets/HeaderData.json";
 import Image from "next/image";
 import Link from "next/link";
 
