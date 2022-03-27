@@ -21,6 +21,7 @@ export default function Certificates() {
             className="mx-auto object-center"
             alt="next-js udemy certificate 70 hours"
             src="/assets/certificates/UC-836671ab-5041-45c7-870d-157798380c79.jpg"
+            
           />
           <img
             className="mx-auto object-center"

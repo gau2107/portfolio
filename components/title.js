@@ -30,7 +30,7 @@ function Title() {
       <p className="text-2xl">
         I design and code beautifully simple things, and I love what I do.
       </p>
-      <img className="h-60 w-60 self-center" src="assets/profile.png" />
+      <img className="h-60 w-60 self-center" src="assets/profile.png" alt="Profile Pic"/>
     </>
   );
 }
