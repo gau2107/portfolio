@@ -13,7 +13,7 @@ function Projects() {
               <img
                 className="rounded-t-lg h-60 m-0 object-center"
                 src={d.img}
-                alt=""
+                alt={d.title}
               />
               <div className="p-6">
                 <h5 className="text-gray-900 text-xl font-medium mb-2">

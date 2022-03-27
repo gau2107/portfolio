@@ -14,7 +14,7 @@ function Header() {
             <Link href={"/"} passHref>
               <a>
                 <img
-                  alt="profile.png"
+                  alt="profile pic"
                   className="h-10 w-10 self-center mr-0 inline"
                   src="/assets/favicon-32x32.png"
                 />

@@ -15,6 +15,7 @@ function Footer() {
             <img
               className="svg-inline--fa fa-facebook-f h-6"
               src="assets/icons/linkedin.svg"
+              alt="linkedin icon"
             />
           </a>
           <a
@@ -25,16 +26,19 @@ function Footer() {
             <img
               className="svg-inline--fa fa-facebook-f h-6"
               src="assets/icons/github.svg"
+              alt="github icon"
             />
           </a>
           <a
             target="_blank" rel="noreferrer"
             href="https://leetcode.com/solankigaurav/"
             className="mr-6 text-gray-600"
+            
           >
             <img
               className="svg-inline--fa fa-facebook-f h-6"
               src="assets/icons/leetcode.png"
+              alt="leetcode icon"
             />
           </a>
           <a
@@ -45,6 +49,7 @@ function Footer() {
             <img
               className="svg-inline--fa fa-facebook-f h-6"
               src="assets/icons/instagram.svg"
+              alt="instagram icon"
             />
           </a>
         </div>

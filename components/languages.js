@@ -12,7 +12,7 @@ function Languages() {
             <img
               className="rounded-t-lg h-60 w-60 mx-auto object-center"
               src={d.img}
-              alt=""
+              alt={d.title}
             />
             <div className="p-6">
               <h5 className="text-gray-900 text-3xl font-bold mb-2">
