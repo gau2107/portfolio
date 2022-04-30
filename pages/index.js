@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import Languages from "/components/languages";
+import Languages from "components/languages";
 import Footer from "/components/footer";
 import Header from "/components/header";
 import Title from "/components/title";
@@ -15,7 +15,8 @@ export default function Home() {
       />
       <Head>
         <title>Gaurav Solanki</title>
-        <meta name="description" content="JS Developer" />
+        <meta name="Gaurav Solanki" content="Gaurav Solanki Portfolio" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
