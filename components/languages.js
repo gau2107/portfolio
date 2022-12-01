@@ -2,12 +2,12 @@ import StarRatings from "react-star-ratings";
 import data from "/public/assets/titleData.json";
 function Languages() {
   return (
-    <div className="flex justify-center">
+    <div className="flex flex-wrap row-gap-1 justify-evenly">
       {data.map((d, ind) => {
         return (
           <div
             key={ind}
-            className="rounded-lg shadow-lg bg-white max-w-sm p-6 mr-8"
+            className="rounded-lg shadow-lg bg-white flex-basis-24 p-6"
           >
             <img
               className="rounded-t-lg h-60 w-60 mx-auto object-center"
