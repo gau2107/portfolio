@@ -26,11 +26,11 @@ function Title() {
   );
   return (
     <>
-      <h1 className="text-6xl font-bold cursor block">🖥️ {name}</h1>
-      <p className="text-2xl">
+      <h1 className="lg:text-6xl sm:text-4xl font-bold cursor block">🖥️ {name}</h1>
+      <p className="lg:text-2xl sm:text-1xl justify-self-auto ml-1 mr-1">
         I design and code beautifully simple things, and I love what I do.
       </p>
-      <img className="h-60 w-60 self-center" src="assets/profile.png" alt="Profile Pic"/>
+      <img className="h-60 w-60 mb-6" src="assets/profile.png" alt="Profile Pic"/>
     </>
   );
 }

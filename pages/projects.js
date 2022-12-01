@@ -13,7 +13,7 @@ export default function Certificates() {
         <meta name="description" content="JS Developer" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
+    
       <main className={""}>
         <div className="container mx-auto">
 
@@ -21,7 +21,7 @@ export default function Certificates() {
         <Projects />
         </div>
       </main>
-      <Footer />
+    
     </div>
   );
 }
