@@ -21,6 +21,11 @@ function Footer() {
       href: "https://medium.com/@gauravpsolanki",
     },
     {
+      src: "https://codepen.io/favicon.ico",
+      alt: "codepen icon",
+      href: "https://codepen.io/gau2107",
+    },
+    {
       src: "assets/icons/instagram.svg",
       alt: "instagram icon",
       href: "https://www.instagram.com/gaurav.psd/",

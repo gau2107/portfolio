@@ -1,9 +1,9 @@
 [
   {
-    "title": "Dashboard",
+    "title": "Bliss",
     "img": "/assets/projects/earth.jpg",
     "description": "Single page web application to give you motivation and helps you to stay focused on what really matters. It has features like Pomodoro, Task List, StopWatch, Timer, Watch, Quotes and a beautiful new wallpaper everyday to keep you motivated and going.",
-    "link": "https://svelte-momentum.herokuapp.com/",
+    "link": "https://bliss-mu.vercel.app/",
     "alt": "Earth Screenshot"
   },
   {

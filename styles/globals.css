@@ -23,6 +23,9 @@ html {
 .row-gap-1 {
   row-gap: 1em;
 }
+.col-gap-1 {
+  column-gap: 1em;
+}
 .flex-basis-24 {
   flex-basis: 24em;
 }

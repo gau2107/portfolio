@@ -2,7 +2,7 @@ import StarRatings from "react-star-ratings";
 import data from "/public/assets/titleData.json";
 function Languages() {
   return (
-    <div className="flex flex-wrap row-gap-1 justify-evenly">
+    <div className="flex flex-wrap row-gap-1 justify-evenly col-gap-1">
       {data.map((d, ind) => {
         return (
           <div
