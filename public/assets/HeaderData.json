@@ -5,6 +5,11 @@
     "nextLink": 1
   },
   {
+    "title": "Achievements",
+    "link": "/achievements",
+    "nextLink": 1
+  },
+  {
     "title": "Projects",
     "link": "/projects",
     "nextLink": 1

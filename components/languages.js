@@ -7,7 +7,7 @@ function Languages() {
         return (
           <div
             key={ind}
-            className="rounded-lg shadow-lg bg-white flex-basis-24 p-6"
+            className="rounded-lg shadow-lg bg-white flex-basis-24 p-6 transform transition duration-500 hover:scale-105"
           >
             <img
               className="rounded-t-lg h-60 w-60 mx-auto object-center"
