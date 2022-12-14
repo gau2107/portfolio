@@ -17,17 +17,5 @@
     "img": "assets/tech/js.svg",
     "description": ".",
     "rating": 5
-  },
-  {
-    "title": "Sass",
-    "img": "assets/tech/sass.svg",
-    "description": "",
-    "rating": 4
-  },
-  {
-    "title": "Svelte",
-    "img": "assets/tech/svelte-logo.png",
-    "description": "",
-    "rating": 3.5
   }
 ]
