@@ -15,9 +15,15 @@ export default function Achievements() {
             Achievements
           </h1>
           <img
-            className="mx-auto object-center"
+            className="mx-auto object-center pb-8"
             alt="Hacker rank "
             src="/assets/achievements/hackerrank.png"
+          />
+
+          <img
+            className="mx-auto object-center pb-8"
+            alt="Cutshort "
+            src="/assets/achievements/cutshort.jpg"
           />
         </div>
       </main>
