@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 html {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu Mono", sans-serif;
 }
 .cursor {
   display: inline-block;
@@ -32,4 +32,22 @@ html {
 .clear {
   clear: both;
   height: 4em;
+}
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: lightgray whitesmoke;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: whitesmoke;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: lightgray;
 }

@@ -1,6 +1,50 @@
+import confetti from "canvas-confetti";
 import Head from "next/head";
+import { useEffect } from "react";
 
 export default function Achievements() {
+  const end = Date.now() + 3 * 1000;
+  const colors = ["#bb0000", "#ffffff"];
+  useEffect(() => {
+    const frame = () => {
+      confetti({
+        particleCount: 2,
+        angle: 60,
+        spread: 55,
+        origin: { x: 0 },
+        colors: colors,
+      });
+      confetti({
+        particleCount: 2,
+        angle: 120,
+        spread: 55,
+        origin: { x: 1 },
+        colors: colors,
+      });
+
+      if (Date.now() < end) {
+        requestAnimationFrame(frame);
+      }
+      confetti({
+        particleCount: 2,
+        angle: 60,
+        spread: 55,
+        origin: { x: 0 },
+        colors: colors,
+      });
+      confetti({
+        particleCount: 2,
+        angle: 120,
+        spread: 55,
+        origin: { x: 1 },
+        colors: colors,
+      });
+    };
+    if (Date.now() < end) {
+      requestAnimationFrame(frame);
+    }
+  }, []);
+
   return (
     <div className={""}>
       <Head>
