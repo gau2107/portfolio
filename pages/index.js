@@ -31,10 +31,6 @@ export default function Home() {
           rel="stylesheet"
           key={"three"}
         />
-        <style>
-          @import
-          url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
-        </style>
       </Head>
 
       <main className={styles.main + " container mx-auto"}>
