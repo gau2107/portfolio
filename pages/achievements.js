@@ -60,6 +60,11 @@ export default function Achievements() {
           </h1>
           <img
             className="mx-auto object-center pb-8"
+            alt="Cutshort Js Intermediate "
+            src="/assets/achievements/cutshort-js.jpg"
+          />
+          <img
+            className="mx-auto object-center pb-8"
             alt="Hacker rank "
             src="/assets/achievements/hackerrank.png"
           />
