@@ -1,8 +1,8 @@
 [
   {
-    "title": "Next.js",
-    "img": "assets/tech/next-logo.png",
-    "description": "",
+    "title": "Typescript",
+    "img": "assets/tech/ts.svg",
+    "description": ".",
     "rating": 4.5
   },
   {
@@ -11,18 +11,24 @@
     "description": "",
     "rating": 4.5
   },
-
   {
-    "title": "Javascript",
-    "img": "assets/tech/js.svg",
-    "description": ".",
-    "rating": 5
+    "title": "Next.js",
+    "img": "assets/tech/next-logo.png",
+    "description": "",
+    "rating": 4.5
   },
+  {
+    "title": "Jest",
+    "img": "assets/tech/jest.svg",
+    "description": "",
+    "rating": 4.5
+  },
+
   {
     "title": "Sass",
     "img": "assets/tech/sass.svg",
     "description": "",
-    "rating": 4
+    "rating": 4.5
   },
   {
     "title": "Svelte",
