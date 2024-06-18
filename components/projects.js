@@ -2,12 +2,13 @@ import Image from "next/image";
 import data from "/public/assets/projectsData.json";
 function Projects() {
   return (
-    <div className="flex flex-wrap justify-start row-gap-1">
+    <div className="flex flex-wrap row-gap-1 col-gap-1 flex-row">
       {data.map((d, ind) => {
         return (
           <div
             key={ind}
-            className="rounded-lg shadow-lg bg-white p-6 mr-8 flex-basis-24"
+            style={{width: "45%"}}
+            className="rounded-lg shadow-lg bg-white p-6 mr-8"
           >
             <a key={ind} href={d.link} target="_blank" rel="noreferrer">
               <img

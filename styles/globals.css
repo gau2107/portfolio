@@ -2,9 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
 html {
-  font-family: "Ubuntu Mono", sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 .cursor {
   display: inline-block;

@@ -7,29 +7,23 @@ export default function Home() {
   return (
     <div className={""}>
       <NextSeo
-        title="Gaurav Solanki - Dashboard"
+        title="Gaurav Solanki - Frontend Web Developer"
         description="Gaurav Solanki Portfolio Dashboard"
       />
       <Head>
-        <title>Gaurav Solanki</title>
-        <meta name="Gaurav Solanki" content="Gaurav Solanki Portfolio" />
+        <title>Gaurav Solanki - Frontend Web Developer</title>
+        <meta
+          name="Gaurav Solanki - Frontend Web Developer"
+          content="Gaurav Solanki - Frontend Web Developer Portfolio"
+        />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="icon" href="/favicon.ico" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
-          rel="preconnect"
-          href="https://fonts.googleapis.com"
-          key={"one"}
-        />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin
-          key={"two"}
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap"
           rel="stylesheet"
-          key={"three"}
         />
       </Head>
 
