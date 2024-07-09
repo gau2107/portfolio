@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Fira Code", sans-serif;
 }
 .cursor {
   display: inline-block;
